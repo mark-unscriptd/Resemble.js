@@ -35,7 +35,8 @@
         ]
     },
     "dependencies": {
-        "canvas-prebuilt": "^1.6.5-prerelease.1"
+        "canvas-prebuilt": "^1.6.5-prerelease.1",
+        "filereader": "^0.10.3"
     },
     "devDependencies": {
         "chai": "^3.4.1",
