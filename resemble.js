@@ -312,7 +312,7 @@ URL: https://github.com/Huddle/Resemble.js
                 // If we have Buffer, assume we're on Node+Canvas and its supported
                 hiddenImage.src = fileDataForImage;
             } else {
-                FileReader = require("filereader");
+                const FileReader = require("filereader");
                 fileReader = new FileReader();
                 fileReader.onload = function(event) {
                     hiddenImage.src = event.target.result;
